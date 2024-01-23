@@ -31,6 +31,8 @@
       justify-content: space-evenly;
   }
 
+  .justify-start{justify-content: right;}
+  
   .justify-end{justify-content: end;}
 
   .align-center{
@@ -71,8 +73,14 @@
   }
   .m-4{
       margin: 20px;
-  }
-  .mt-1{
+}
+ .m-5{margin:20px 200px;}
+
+.m-6{margin-right: 50px;
+margin-left: 50px;}
+ .m-7{margin-right: 20px; margin-left: 20px;}
+
+.mt-1{
       margin-top: 5px;
   }
   .mt-2{
@@ -85,7 +93,7 @@
       margin-top: 20px;
   }
 
-.mt6{margin-right: 50px;}
+.mt6{margin-right: 100px;}
   
   /* margin classes end */
   
