@@ -155,3 +155,158 @@ margin-top: 0px;
 
 #gp-div{max-width: 1750px;
 min-width: 1500px;}
+
+
+
+
+.cursor{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stars input {
+    display: none;
+ }
+ 
+ .stars label {
+    float: right;
+    color:#a0a0a0;
+    margin: 0.1px;
+    cursor: pointer;
+ }
+ 
+ .stars label:before {
+    content: '\2605';
+    font-size: 2em;
+ }
+ 
+ .stars input:checked ~ label {
+    color:var(--red);
+ }
+ 
+ .stars:hover label:before,
+ .stars:hover label:after,
+ .stars label:hover ~ label:before,
+ .stars input:checked ~ label:before,
+ .stars input:checked ~ label:after {
+    color: var(--red);
+ }
+ 
+ .padding{
+    padding: 10px;
+ }
+ .ml{
+    margin-left: 400px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* Review stars styling ended */
+ 
+ 
+ 
+ 
+ /* Form styling started */
+ 
+ 
+ input{
+    padding: 12px;
+    border-radius:4px;
+    width:550px;
+    color: #000;
+    
+    
+    
+ }
+ 
+ .text-red{
+    color: var(--red);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Footer styling started */
+ 
+ .liststyle{
+    list-style: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ input{
+    padding: 12px;
+    border-radius:4px;
+    width:550px;
+    color: #000;
+    height: 50px;
+    
+ }
+ 
+  .box label{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+ 
+  .ml{
+    margin-left:40px;
+  }
+ 
+ 
+  .font-size{
+    font-size: 40px;
+  }
+ 
+  .liststyle{
+    list-style: none;
+  }
+ 
+  .gap-3{
+    gap: 40px;
+  }
+ 
+ 
+  /* Submit button styling started */
+  
+ .width-3{
+    width:180px;
+ }
+ .ml-3{
+    margin-left: 130px;
+ }
+ 
+ /* Submit button styling ended */
